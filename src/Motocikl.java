@@ -11,14 +11,8 @@ public class Motocikl extends Vozila {
             return tip;
         }
 
-
         public void setTip(String tip) {
             this.tip = tip;
-        }
-
-        @Override
-        public void ubrzanje(double iznos){
-            this.brzina += iznos;
         }
     }
 

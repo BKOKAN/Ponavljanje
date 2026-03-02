@@ -14,8 +14,4 @@ public class Automobil extends Vozila {
     void setBrojVrata(double brojVrata) {
         this.brojVrata = brojVrata;
     }
-    @Override
-    public void ubrzanje(double iznos){
-        this.brzina += iznos;
-    }
 }
