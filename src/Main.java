@@ -6,14 +6,12 @@
         Motocikl m1 = new Motocikl("Kawasaki", 150, "sport");
         Motocikl m2 = new Motocikl("Vespa", 60, "skuter");
 
-        Ubrzanje[] vozila = {a1, a2, m1, m2};
-        for (Ubrzanje v : vozila) {
+        Vozila[] vozila = {a1, a2, m1, m2};
+
+        for (Vozila v : vozila) {
             v.ubrzanje(15);
+            System.out.println(v.getMarka() + " -> " + v.getBrzina());
         }
 
-        System.out.println(a1.getBrzina());
-        System.out.println(a2.getBrzina());
-        System.out.println(m1.getBrzina());
-        System.out.println(m2.getBrzina());
     }
 }
